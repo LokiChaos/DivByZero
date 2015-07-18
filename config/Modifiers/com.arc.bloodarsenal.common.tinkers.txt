@@ -4,5 +4,5 @@ Interfaces:
 Constructors: 
 	public com.arc.bloodarsenal.common.tinkers.ModSoulbound(net.minecraft.item.ItemStack[] stacks)
 Modifiers using this: 
-	class com.arc.bloodarsenal.common.tinkers.ModSoulbound [modifiersRequired=1key=Soulboundstacks=[1xitem.masterBloodOrb@32767]effectIndex=1random=java.util.Random@3e0be248]
+	class com.arc.bloodarsenal.common.tinkers.ModSoulbound [modifiersRequired=1key=Soulboundstacks=[1xitem.masterBloodOrb@32767]effectIndex=1random=java.util.Random@64ffce3]
 ********************************
