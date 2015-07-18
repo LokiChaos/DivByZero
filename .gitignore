@@ -1,7 +1,18 @@
 # Ignore Everything
 /*
 # ... Except what we care about
+#
 !.gitignore
+
+# Track Config files
 !config/
+
+# Except these config files
 config/fastcraft.ini
+# These keep a timestamp...
+config/InvTweaks.cfg
+config/MouseTweaks.cfg
+config/splash.properties
+
+# Track MineTweaker Sripts
 !scripts/
