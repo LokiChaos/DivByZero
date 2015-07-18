@@ -1,0 +1,6 @@
+# Ignore Everything
+/*
+# ... Except what we care about
+!.gitignore
+!config/
+!scripts/
