@@ -1,0 +1,54 @@
+{
+    nameid: "shinyBread",
+    name: "Shiny Bread",
+    texture: "minecraft:diamond",
+    colorOverlay: {
+        red: 150,
+        green: 255,
+        blue: 100
+    },
+    eatTime: 12,
+    healAmount: 2,
+    saturationModifier: 0.3,
+    
+    isWolfsFavoriteMeat: false,
+    rarity: "epic",
+    hasEffect: true,
+    
+    isAlwaysEdible: true,
+    maxStackSize: 16,
+    
+    potionEffects: 
+    [
+        {
+            potionid: 1,
+            probability: 1.0,
+            duration: 3,
+            amplifier: 2
+        },
+        
+        {
+            potionid: 2,
+            probability: 1.0,
+            duration: 5,
+            amplifier: 2
+        }
+    ],
+    
+    craftingRecipe: {
+        recipeResultAmount: 4,
+        recipe:
+        [
+            " , , ",
+            "apple,diamond,plankWood",
+            "diamond:1,apple,someMod:someItem:6"
+        ]
+    },
+    
+    furnaceRecipe: {
+        recipeResultAmount: 4,
+        inputnameid: "apple",
+        inputmeta: 1,
+        experience: 4
+    }
+}

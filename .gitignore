@@ -3,4 +3,5 @@
 # ... Except what we care about
 !.gitignore
 !config/
+config/fastcraft.ini
 !scripts/

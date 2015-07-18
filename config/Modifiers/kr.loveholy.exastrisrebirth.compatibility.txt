@@ -1,0 +1,16 @@
+********************************
+Class: kr.loveholy.exastrisrebirth.compatibility.ModCrooked
+Interfaces: 
+Constructors: 
+	
+Modifiers using this: 
+	class kr.loveholy.exastrisrebirth.compatibility.ModCrooked [key=Crookedstacks=[1xexnihilo.crook_bone@0]effectIndex=60random=java.util.Random@3e0be248]
+********************************
+********************************
+Class: kr.loveholy.exastrisrebirth.compatibility.ModHammered
+Interfaces: 
+Constructors: 
+	
+Modifiers using this: 
+	class kr.loveholy.exastrisrebirth.compatibility.ModHammered [key=Hammeredstacks=[1xexnihilo.hammer_diamond@0]effectIndex=61random=java.util.Random@3e0be248]
+********************************
