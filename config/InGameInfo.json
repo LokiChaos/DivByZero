@@ -1,0 +1,958 @@
+{
+  "bottomleft": [
+    [
+      {
+        "if": [
+          {
+            "greater": [
+              {
+                "var": "helmetquantity"
+              },
+              {
+                "num": 0
+              }
+            ]
+          },
+          {
+            "concat": [
+              {
+                "var": "helmetlargeicon"
+              },
+              {
+                "if": [
+                  {
+                    "greater": [
+                      {
+                        "var": "helmetmaxdamage"
+                      },
+                      {
+                        "num": 0
+                      }
+                    ]
+                  },
+                  {
+                    "concat": [
+                      {
+                        "str": " "
+                      },
+                      {
+                        "op": [
+                          {
+                            "str": "ge"
+                          },
+                          {
+                            "pct": [
+                              {
+                                "var": "helmetdamageleft"
+                              },
+                              {
+                                "var": "helmetmaxdamage"
+                              }
+                            ]
+                          },
+                          {
+                            "num": 81
+                          },
+                          {
+                            "num": 61
+                          },
+                          {
+                            "num": 41
+                          },
+                          {
+                            "num": 26
+                          },
+                          {
+                            "num": 11
+                          },
+                          {
+                            "num": 0
+                          },
+                          {
+                            "str": "$f"
+                          },
+                          {
+                            "str": "$7"
+                          },
+                          {
+                            "str": "$e"
+                          },
+                          {
+                            "str": "$6"
+                          },
+                          {
+                            "str": "$c"
+                          },
+                          {
+                            "str": "$4"
+                          }
+                        ]
+                      },
+                      {
+                        "var": "helmetdamageleft"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "if": [
+          {
+            "greater": [
+              {
+                "var": "chestplatequantity"
+              },
+              {
+                "num": 0
+              }
+            ]
+          },
+          {
+            "concat": [
+              {
+                "var": "chestplatelargeicon"
+              },
+              {
+                "if": [
+                  {
+                    "greater": [
+                      {
+                        "var": "chestplatemaxdamage"
+                      },
+                      {
+                        "num": 0
+                      }
+                    ]
+                  },
+                  {
+                    "concat": [
+                      {
+                        "str": " "
+                      },
+                      {
+                        "op": [
+                          {
+                            "str": "ge"
+                          },
+                          {
+                            "pct": [
+                              {
+                                "var": "chestplatedamageleft"
+                              },
+                              {
+                                "var": "chestplatemaxdamage"
+                              }
+                            ]
+                          },
+                          {
+                            "num": 81
+                          },
+                          {
+                            "num": 61
+                          },
+                          {
+                            "num": 41
+                          },
+                          {
+                            "num": 26
+                          },
+                          {
+                            "num": 11
+                          },
+                          {
+                            "num": 0
+                          },
+                          {
+                            "str": "$f"
+                          },
+                          {
+                            "str": "$7"
+                          },
+                          {
+                            "str": "$e"
+                          },
+                          {
+                            "str": "$6"
+                          },
+                          {
+                            "str": "$c"
+                          },
+                          {
+                            "str": "$4"
+                          }
+                        ]
+                      },
+                      {
+                        "var": "chestplatedamageleft"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "if": [
+          {
+            "greater": [
+              {
+                "var": "leggingsquantity"
+              },
+              {
+                "num": 0
+              }
+            ]
+          },
+          {
+            "concat": [
+              {
+                "var": "leggingslargeicon"
+              },
+              {
+                "if": [
+                  {
+                    "greater": [
+                      {
+                        "var": "leggingsmaxdamage"
+                      },
+                      {
+                        "num": 0
+                      }
+                    ]
+                  },
+                  {
+                    "concat": [
+                      {
+                        "str": " "
+                      },
+                      {
+                        "op": [
+                          {
+                            "str": "ge"
+                          },
+                          {
+                            "pct": [
+                              {
+                                "var": "leggingsdamageleft"
+                              },
+                              {
+                                "var": "leggingsmaxdamage"
+                              }
+                            ]
+                          },
+                          {
+                            "num": 81
+                          },
+                          {
+                            "num": 61
+                          },
+                          {
+                            "num": 41
+                          },
+                          {
+                            "num": 26
+                          },
+                          {
+                            "num": 11
+                          },
+                          {
+                            "num": 0
+                          },
+                          {
+                            "str": "$f"
+                          },
+                          {
+                            "str": "$7"
+                          },
+                          {
+                            "str": "$e"
+                          },
+                          {
+                            "str": "$6"
+                          },
+                          {
+                            "str": "$c"
+                          },
+                          {
+                            "str": "$4"
+                          }
+                        ]
+                      },
+                      {
+                        "var": "leggingsdamageleft"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "if": [
+          {
+            "greater": [
+              {
+                "var": "bootsquantity"
+              },
+              {
+                "num": 0
+              }
+            ]
+          },
+          {
+            "concat": [
+              {
+                "var": "bootslargeicon"
+              },
+              {
+                "if": [
+                  {
+                    "greater": [
+                      {
+                        "var": "bootsmaxdamage"
+                      },
+                      {
+                        "num": 0
+                      }
+                    ]
+                  },
+                  {
+                    "concat": [
+                      {
+                        "str": " "
+                      },
+                      {
+                        "op": [
+                          {
+                            "str": "ge"
+                          },
+                          {
+                            "pct": [
+                              {
+                                "var": "bootsdamageleft"
+                              },
+                              {
+                                "var": "bootsmaxdamage"
+                              }
+                            ]
+                          },
+                          {
+                            "num": 81
+                          },
+                          {
+                            "num": 61
+                          },
+                          {
+                            "num": 41
+                          },
+                          {
+                            "num": 26
+                          },
+                          {
+                            "num": 11
+                          },
+                          {
+                            "num": 0
+                          },
+                          {
+                            "str": "$f"
+                          },
+                          {
+                            "str": "$7"
+                          },
+                          {
+                            "str": "$e"
+                          },
+                          {
+                            "str": "$6"
+                          },
+                          {
+                            "str": "$c"
+                          },
+                          {
+                            "str": "$4"
+                          }
+                        ]
+                      },
+                      {
+                        "var": "bootsdamageleft"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "if": [
+          {
+            "greater": [
+              {
+                "var": "equippedquantity"
+              },
+              {
+                "num": 0
+              }
+            ]
+          },
+          {
+            "concat": [
+              {
+                "var": "equippedlargeicon"
+              },
+              {
+                "if": [
+                  {
+                    "greater": [
+                      {
+                        "var": "equippedmaxdamage"
+                      },
+                      {
+                        "num": 0
+                      }
+                    ]
+                  },
+                  {
+                    "concat": [
+                      {
+                        "str": " "
+                      },
+                      {
+                        "op": [
+                          {
+                            "str": "ge"
+                          },
+                          {
+                            "pct": [
+                              {
+                                "var": "equippeddamageleft"
+                              },
+                              {
+                                "var": "equippedmaxdamage"
+                              }
+                            ]
+                          },
+                          {
+                            "num": 81
+                          },
+                          {
+                            "num": 61
+                          },
+                          {
+                            "num": 41
+                          },
+                          {
+                            "num": 26
+                          },
+                          {
+                            "num": 11
+                          },
+                          {
+                            "num": 0
+                          },
+                          {
+                            "str": "$f"
+                          },
+                          {
+                            "str": "$7"
+                          },
+                          {
+                            "str": "$e"
+                          },
+                          {
+                            "str": "$6"
+                          },
+                          {
+                            "str": "$c"
+                          },
+                          {
+                            "str": "$4"
+                          }
+                        ]
+                      },
+                      {
+                        "var": "equippeddamageleft"
+                      }
+                    ]
+                  },
+                  {
+                    "if": [
+                      {
+                        "greater": [
+                          {
+                            "var": "equippedquantity"
+                          },
+                          {
+                            "num": 1
+                          }
+                        ]
+                      },
+                      {
+                        "concat": [
+                          {
+                            "str": " x"
+                          },
+                          {
+                            "var": "equippedquantity"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "str": " "
+              },
+              {
+                "var": "equippedname"
+              }
+            ]
+          },
+          {
+            "str": " Nothing"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ]
+  ],
+  "bottomright": [
+    [
+      {
+        "max": [
+          {
+            "var": "xi"
+          },
+          {
+            "num": 0
+          },
+          {
+            "str": "+"
+          },
+          {
+            "str": ""
+          }
+        ]
+      },
+      {
+        "str": "{xi}, "
+      },
+      {
+        "max": [
+          {
+            "var": "zi"
+          },
+          {
+            "num": 0
+          },
+          {
+            "str": "+"
+          },
+          {
+            "str": ""
+          }
+        ]
+      },
+      {
+        "str": "{zi} ({yfeeti}) - {abrfinedirection}"
+      }
+    ],
+    [
+      {
+        "str": "Chunk: {chunkx}, {chunkz} "
+      },
+      {
+        "str": "({chunkoffsetx}, {chunkoffsetz})"
+      }
+    ],
+    [
+      {
+        "str": "{dimension} ({dimensionid})"
+      }
+    ],
+    [
+      {
+        "str": " "
+      }
+    ],
+    [
+      {
+        "str": "Day {day}, {mctime} ("
+      },
+      {
+        "if": [
+          {
+            "var": "daytime"
+          },
+          {
+            "str": "$eDay"
+          },
+          {
+            "str": "$8Night"
+          }
+        ]
+      },
+      {
+        "str": " time$f)"
+      }
+    ],
+    [
+      {
+        "str": "Biome: $e{biome}$f"
+      },
+      {
+        "if": [
+          {
+            "var": "slimes"
+          },
+          {
+            "str": " ($aSlime$f)"
+          },
+          {
+            "str": " "
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "str": "Light: "
+      },
+      {
+        "max": [
+          {
+            "var": "light"
+          },
+          {
+            "num": 7.5
+          },
+          {
+            "str": "$e"
+          },
+          {
+            "str": "$c"
+          }
+        ]
+      },
+      {
+        "var": "light"
+      },
+      {
+        "str": "$r (feet: "
+      },
+      {
+        "max": [
+          {
+            "var": "lightfeet"
+          },
+          {
+            "num": 7.5
+          },
+          {
+            "str": "$e"
+          },
+          {
+            "str": "$c"
+          }
+        ]
+      },
+      {
+        "var": "lightfeet"
+      },
+      {
+        "str": "$r)"
+      }
+    ],
+    [
+      {
+        "str": "FPS: "
+      },
+      {
+        "op": [
+          {
+            "str": "gt"
+          },
+          {
+            "var": "fps"
+          },
+          {
+            "num": 60
+          },
+          {
+            "num": 45
+          },
+          {
+            "num": 30
+          },
+          {
+            "num": 15
+          },
+          {
+            "num": 0
+          },
+          {
+            "str": "$a"
+          },
+          {
+            "str": "$e"
+          },
+          {
+            "str": "$6"
+          },
+          {
+            "str": "$c"
+          },
+          {
+            "str": "$4"
+          },
+          {
+            "str": ""
+          }
+        ]
+      },
+      {
+        "var": "fps"
+      },
+      {
+        "str": "$f E: $e{entitiesrendered}$f / $e{entitiestotal}$f"
+      },
+      {
+        "str": " C: $e{loadedchunks}"
+      }
+    ],
+    [
+      {
+        "str": "Health: {health}/{maxhealth}"
+      }
+    ],
+    [
+      {
+        "str": "$cWarning: This Modpack is in TESTING!$f"
+      }
+    ]
+  ],
+  "middleleft": [
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks0"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration0} {potionicon0}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks1"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration1} {potionicon1}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks2"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration2} {potionicon2}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks3"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration3} {potionicon3}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks4"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration4} {potionicon4}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks5"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration5} {potionicon5}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks6"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration6} {potionicon6}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks7"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration7} {potionicon7}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "max": [
+          {
+            "var": "potiondurationticks8"
+          },
+          {
+            "num": 0.5
+          },
+          {
+            "str": "{potionduration8} {potionicon8}"
+          },
+          {
+            "str": ""
+          }
+        ]
+      }
+    ]
+  ]
+}
