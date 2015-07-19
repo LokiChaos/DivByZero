@@ -1,0 +1,31 @@
+if (FML.isModLoaded("BloodAresenal")) {
+	NEI.hide("BloodArsenal:arrowhead");
+	NEI.hide("BloodArsenal:axeHead");
+	NEI.hide("BloodArsenal:battleSign");
+	NEI.hide("BloodArsenal:binding");
+	NEI.hide("BloodArsenal:bolt");
+	NEI.hide("BloodArsenal:bowLimb");
+	NEI.hide("BloodArsenal:chiselHead");
+	NEI.hide("BloodArsenal:chunk");
+	NEI.hide("BloodArsenal:crossbar");
+	NEI.hide("BloodArsenal:crossbowBody");
+	NEI.hide("BloodArsenal:crossbowLimb");
+	NEI.hide("BloodArsenal:excavatorHead");
+	NEI.hide("BloodArsenal:frypanHead");
+	NEI.hide("BloodArsenal:fullGuard");
+	NEI.hide("BloodArsenal:hammerHead");
+	NEI.hide("BloodArsenal:knifeBlade");
+	NEI.hide("BloodArsenal:largeGuard");
+	NEI.hide("BloodArsenal:largeSwordBlade");
+	NEI.hide("BloodArsenal:largeplate");
+	NEI.hide("BloodArsenal:lumberaxeHead");
+	NEI.hide("BloodArsenal:mediumGuard");
+	NEI.hide("BloodArsenal:pickaxeHead");
+	NEI.hide("BloodArsenal:scytheHead");
+	NEI.hide("BloodArsenal:shovelHead");
+	NEI.hide("BloodArsenal:shuriken");
+	NEI.hide("BloodArsenal:swordBlade");
+	NEI.hide("BloodArsenal:toolrod");
+	NEI.hide("BloodArsenal:toughbind");
+	NEI.hide("BloodArsenal:toughrod");
+}

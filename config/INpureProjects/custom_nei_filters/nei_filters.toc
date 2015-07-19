@@ -1,15 +1,38 @@
 ## Title: custom_nei_filters
-## Author: denoflionsx
+## Author: LokiChaos
 ## Version: 1.0
 ## Bootstrap: Bootstrap.js
-## Saved Variables: vanilla_enabled, ThermalExpansion_enabled, Mekanism_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, BuildCraft_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, MFR_enabled
+
 vanilla.js
-ThermalExpansion.js
-Mekanism.js
-ForgeMicroblock.js
-ExtraUtilities.js
-BuildCraft.js
 Bibliocraft.js
+ForgeMicroblock.js
 AppliedEnergistics2.js
-Tcon.js
 MFR.js
+ExtraUtilities.js
+ThermalExpansion.js
+Tcon.js
+
+User/Botania.js
+User/BloodMagic.js
+User/BloodArsenal.js
+User/RandomThings.js
+User/Warpbook.js
+User/ThaumcraftNEI.js
+User/Brewcraft.js
+User/IguanaTweaksTConstruct.js
+User/Gendustry.js
+User/Backpack.js
+User/OpenBlocks.js
+User/Tcon.js
+User/Natura.js
+User/Thaumcraft.js
+User/Forestry.js
+User/Binnie.js
+User/MagicBee.js
+User/ExtraCells.js
+User/RedLogic.js
+User/NodalMechanics.js
+User/Catwalks.js
+User/Garden.js
+User/IntegratedCircuits.js
+User/MalisisDoors.js
