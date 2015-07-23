@@ -15,6 +15,7 @@ Tcon.js
 User/Botania.js
 User/BloodMagic.js
 User/BloodArsenal.js
+User/BuildCraft.js
 User/RandomThings.js
 User/Warpbook.js
 User/ThaumcraftNEI.js
